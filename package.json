@@ -22,6 +22,6 @@
   },
   "scripts": {
     "build": "rm -rf build && webpack --progress -p",
-    "start": "rm -rf build && webpack-dev-server --contentBase build --host localhost --port 3000"
+    "start": "webpack-dev-server --host localhost --port 3000"
   }
 }
