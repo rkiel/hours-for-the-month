@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 class HelloWorld extends Component {
   render() {
     return (
-      <h1>Hello World from React</h1>
+      <h1>Hello World from React and Webpack</h1>
     )
   }
 }
