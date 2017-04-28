@@ -6,6 +6,7 @@ function customizer(config) {
   .output('build')
   .addRuleForBabel()
   .addHtmlWebpackPlugin()
+  .addRuleForExtractCssModules()
   .echo();
 }
 module.exports = wpConfig.generate(customizer);
