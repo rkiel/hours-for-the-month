@@ -1,10 +1,14 @@
 import React, {Component} from 'react';
-import style from './index.css';
+import Hello from '../Hello/index.jsx';
+import Goodbye from '../Goodbye/index.jsx';
 
 class HelloWorld extends Component {
   render() {
     return (
-      <h1 className={style.message}>Hello World from React</h1>
+      <div>
+        <Hello/>
+        <Goodbye/>
+      </div>
     )
   }
 }
